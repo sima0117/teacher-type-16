@@ -382,3 +382,12 @@ main p {
     margin: 10px 0;
     font-size: 1em;
 }
+
+/* --- index.html 軸説明の英語表記 --- */
+.axis-en {
+    display: block;
+    font-family: 'Noto Sans Mono', monospace;
+    font-size: 0.9em;
+    color: #777;
+    margin-top: 5px;
+}
