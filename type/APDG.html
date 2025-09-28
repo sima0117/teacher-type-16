@@ -13,7 +13,7 @@
     <div id="header-placeholder"></div>
 
     <div class="container">
-        <main id="result-page">
+        <main id="result-page" data-self-type="APDG">
             <header>
                 <h1><span class="type-code">APDG</span> - 芸術系の自由人顧問タイプ</h1>
                 <h2>「好きにやってみなよ。」生徒の創造性を信じて見守る自由人アーティスト</h2>
@@ -35,6 +35,42 @@
                 
                 <h3>４．ワンポイントアドバイス</h3>
                 <p>あなたのスタイルは、生徒の才能を大きく開花させる可能性を秘めています。その可能性をさらに広げるため、希望者だけに向けた「基礎テクニックのミニ講座」をたまに開いてみましょう。「興味がある人だけどうぞ」という形なら、あなたの自由な空間の雰囲気を壊すことはありません。また、遠くから見守るだけでなく、「その色使い、面白いね」といった、具体的な観察ポイントを言葉にして伝えることで、生徒は「ちゃんと見てくれている」という安心感を得ることができます。</p>
+
+                <h3>５．他のタイプとの相性</h3>
+                <div class="compatibility-grid">
+                    <div class="compat-card good-compat">
+                        <h4>✨ 【支え合う関係】</h4>
+                        <a href="OLCI.html" class="partner-profile">
+                            <img src="../img/Character_OLCI.png" alt="未来を照らす進路指導の先生タイプ">
+                            <p><span class="type-code">OLCI</span>未来を照らす進路指導の先生</p>
+                        </a>
+                        <p class="compat-description" data-compat-type="support" data-partner-type="OLCI"></p>
+                    </div>
+                    <div class="compat-card good-compat">
+                        <h4>🤝 【強みを増幅する関係】</h4>
+                        <a href="APCG.html" class="partner-profile">
+                            <img src="../img/Character_APCG.png" alt="学校行事の仕掛け人タイプ">
+                            <p><span class="type-code">APCG</span>学校行事の仕掛け人</p>
+                        </a>
+                        <p class="compat-description" data-compat-type="amplifyStrength" data-partner-type="APCG"></p>
+                    </div>
+                    <div class="compat-card bad-compat">
+                        <h4>⚠️ 【対立する関係】</h4>
+                        <a href="OLCG.html" class="partner-profile">
+                            <img src="../img/Character_OLCG.png" alt="対話で築くプロジェクトマネージャータイプ">
+                            <p><span class="type-code">OLCG</span>対話で築くPM</p>
+                        </a>
+                        <p class="compat-description" data-compat-type="conflict" data-partner-type="OLCG"></p>
+                    </div>
+                    <div class="compat-card bad-compat">
+                        <h4>💣 【弱みを増幅する関係】</h4>
+                        <a href="ALDG.html" class="partner-profile">
+                            <img src="../img/Character_ALDG.png" alt="知識の森の司書タイプ">
+                            <p><span class="type-code">ALDG</span>知識の森の司書</p>
+                        </a>
+                        <p class="compat-description" data-compat-type="amplifyWeakness" data-partner-type="ALDG"></p>
+                    </div>
+                </div>
             </section>
 
             <footer>
@@ -45,6 +81,7 @@
 
     <div id="footer-placeholder"></div>
 
+    <script src="../compat-data.js"></script>
     <script src="../include.js"></script>
 </body>
 </html>

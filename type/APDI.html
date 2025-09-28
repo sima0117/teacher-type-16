@@ -13,7 +13,7 @@
     <div id="header-placeholder"></div>
 
     <div class="container">
-        <main id="result-page">
+        <main id="result-page" data-self-type="APDI">
             <header>
                 <h1><span class="type-code">APDI</span> - 異能を見出すスカウトマンタイプ</h1>
                 <h2>「君、面白いね。」枠にはまらない才能の原石を見抜く人材発掘担当者</h2>
@@ -35,6 +35,42 @@
                 
                 <h3>４．ワンポイントアドバイス</h3>
                 <p>あなたの「見抜く力」は、生徒の可能性を拓く鍵です。その効果を最大化するために、生徒を褒める際には「面白いね」だけでなく、「なぜ面白いと思ったか」を具体的に伝えてみましょう。「君のその、誰も思いつかない視点が面白い」と伝えることで、生徒は自分の才能をより深く自覚できます。また、才能を見つけた後の「橋渡し役」を意識するのも良いでしょう。あなたがコーチになる必要はありません。その才能を伸ばしてくれそうな別の先生や、適切な部活動、外部のコンテストなどを紹介してあげることで、あなたの発見は未来へと繋がっていきます。</p>
+
+                <h3>５．他のタイプとの相性</h3>
+                <div class="compatibility-grid">
+                    <div class="compat-card good-compat">
+                        <h4>✨ 【支え合う関係】</h4>
+                        <a href="OLCG.html" class="partner-profile">
+                            <img src="../img/Character_OLCG.png" alt="対話で築くプロジェクトマネージャータイプ">
+                            <p><span class="type-code">OLCG</span>対話で築くPM</p>
+                        </a>
+                        <p class="compat-description" data-compat-type="support" data-partner-type="OLCG"></p>
+                    </div>
+                    <div class="compat-card good-compat">
+                        <h4>🤝 【強みを増幅する関係】</h4>
+                        <a href="APCI.html" class="partner-profile">
+                            <img src="../img/Character_APCI.png" alt="心の拠り所の保健室の先生タイプ">
+                            <p><span class="type-code">APCI</span>心の拠り所の保健室の先生</p>
+                        </a>
+                        <p class="compat-description" data-compat-type="amplifyStrength" data-partner-type="APCI"></p>
+                    </div>
+                    <div class="compat-card bad-compat">
+                        <h4>⚠️ 【対立する関係】</h4>
+                        <a href="OLCI.html" class="partner-profile">
+                            <img src="../img/Character_OLCI.png" alt="未来を照らす進路指導の先生タイプ">
+                            <p><span class="type-code">OLCI</span>未来を照らす進路指導の先生</p>
+                        </a>
+                        <p class="compat-description" data-compat-type="conflict" data-partner-type="OLCI"></p>
+                    </div>
+                    <div class="compat-card bad-compat">
+                        <h4>💣 【弱みを増幅する関係】</h4>
+                        <a href="ALDI.html" class="partner-profile">
+                            <img src="../img/Character_ALDI.png" alt="教育研究所の研究員タイプ">
+                            <p><span class="type-code">ALDI</span>教育研究所の研究員</p>
+                        </a>
+                        <p class="compat-description" data-compat-type="amplifyWeakness" data-partner-type="ALDI"></p>
+                    </div>
+                </div>
             </section>
 
             <footer>
@@ -45,6 +81,7 @@
 
     <div id="footer-placeholder"></div>
 
+    <script src="../compat-data.js"></script>
     <script src="../include.js"></script>
 </body>
 </html>

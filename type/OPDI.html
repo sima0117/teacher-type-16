@@ -13,7 +13,7 @@
     <div id="header-placeholder"></div>
 
     <div class="container">
-        <main id="result-page">
+        <main id="result-page" data-self-type="OPDI">
             <header>
                 <h1><span class="type-code">OPDI</span> - コンクールの個人指導教官タイプ</h1>
                 <h2>「その才能を本物へ。」妥協を許さず高みへ導くプロフェッショナル</h2>
@@ -35,6 +35,42 @@
                 
                 <h3>４．ワンポイントアドバイス</h3>
                 <p>あなたの専門的な指導力は、何にも代えがたい価値を持っています。その指導をさらに豊かなものにするため、たまには技術以外の問いを投げかけてみましょう。「最近、この練習自体を楽しめているか？」といった短い問いかけが、生徒の精神的な支えになります。また、あえて「型を崩してみる」「遊んでみる」時間をレッスンに組み込むことも有効です。基礎から逸脱する時間を作ることで、生徒の意外な才能や、あなた自身の新たなインスピレーションを発見できるかもしれません。</p>
+
+                <h3>５．他のタイプとの相性</h3>
+                <div class="compatibility-grid">
+                    <div class="compat-card good-compat">
+                        <h4>✨ 【支え合う関係】</h4>
+                        <a href="ALCG.html" class="partner-profile">
+                            <img src="../img/Character_ALCG.png" alt="探求学習のファシリテータータイプ">
+                            <p><span class="type-code">ALCG</span>探求学習のファシリテーター</p>
+                        </a>
+                        <p class="compat-description" data-compat-type="support" data-partner-type="ALCG"></p>
+                    </div>
+                    <div class="compat-card good-compat">
+                        <h4>🤝 【強みを増幅する関係】</h4>
+                        <a href="OPDG.html" class="partner-profile">
+                            <img src="../img/Character_OPDG.png" alt="勝利へ導く鬼顧問タイプ">
+                            <p><span class="type-code">OPDG</span>勝利へ導く鬼顧問</p>
+                        </a>
+                        <p class="compat-description" data-compat-type="amplifyStrength" data-partner-type="OPDG"></p>
+                    </div>
+                    <div class="compat-card bad-compat">
+                        <h4>⚠️ 【対立する関係】</h4>
+                        <a href="APCI.html" class="partner-profile">
+                            <img src="../img/Character_APCI.png" alt="心の拠り所の保健室の先生タイプ">
+                            <p><span class="type-code">APCI</span>心の拠り所の保健室の先生</p>
+                        </a>
+                        <p class="compat-description" data-compat-type="conflict" data-partner-type="APCI"></p>
+                    </div>
+                    <div class="compat-card bad-compat">
+                        <h4>💣 【弱みを増幅する関係】</h4>
+                        <a href="OLDI.html" class="partner-profile">
+                            <img src="../img/Character_OLDI.png" alt="知の収蔵庫の学芸員タイプ">
+                            <p><span class="type-code">OLDI</span>知の収蔵庫の学芸員</p>
+                        </a>
+                        <p class="compat-description" data-compat-type="amplifyWeakness" data-partner-type="OLDI"></p>
+                    </div>
+                </div>
             </section>
 
             <footer>
@@ -45,6 +81,7 @@
 
     <div id="footer-placeholder"></div>
 
+    <script src="../compat-data.js"></script>
     <script src="../include.js"></script>
 </body>
 </html>

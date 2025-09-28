@@ -13,7 +13,7 @@
     <div id="header-placeholder"></div>
 
     <div class="container">
-        <main id="result-page">
+        <main id="result-page" data-self-type="OPCG">
             <header>
                 <h1><span class="type-code">OPCG</span> - 学園ドラマの熱血教師タイプ</h1>
                 <h2>「俺を信じてついてこい！」魂でクラスを一つにする熱血リーダー</h2>
@@ -35,8 +35,44 @@
                 
                 <h3>４．ワンポイントアドバイス</h3>
                 <p>あなたの求心力は素晴らしい才能です。その力をさらに活かすために、意識的に「静かなタイプの生徒」や「輪から少し外れている生徒」と一対一で話す時間を作ってみましょう。「クラスの目標とは別に、君個人の目標は何？」と問いかけることで、多様な価値観を認め、チームはさらに強くなります。困難な問題に直面した時は、一度深呼吸を。冷静で論理的な同僚に意見を求めることで、新たな視点が加わり、最善の解決策が見つかるはずです。</p>
-            </section>
 
+                <h3>５．他のタイプとの相性</h3>
+                <div class="compatibility-grid">
+                    <div class="compat-card good-compat">
+                        <h4>✨ 【支え合う関係】</h4>
+                        <a href="ALDI.html" class="partner-profile">
+                            <img src="../img/Character_ALDI.png" alt="教育研究所の研究員タイプ">
+                            <p><span class="type-code">ALDI</span>教育研究所の研究員</p>
+                        </a>
+                        <p class="compat-description" data-compat-type="support" data-partner-type="ALDI"></p>
+                    </div>
+                    <div class="compat-card good-compat">
+                        <h4>🤝 【強みを増幅する関係】</h4>
+                        <a href="OPCI.html" class="partner-profile">
+                            <img src="../img/Character_OPCI.png" alt="マンツーマンの熱血コーチタイプ">
+                            <p><span class="type-code">OPCI</span>マンツーマンの熱血コーチ</p>
+                        </a>
+                        <p class="compat-description" data-compat-type="amplifyStrength" data-partner-type="OPCI"></p>
+                    </div>
+                    <div class="compat-card bad-compat">
+                        <h4>⚠️ 【対立する関係】</h4>
+                        <a href="ALDG.html" class="partner-profile">
+                            <img src="../img/Character_ALDG.png" alt="知識の森の司書タイプ">
+                            <p><span class="type-code">ALDG</span>知識の森の司書</p>
+                        </a>
+                        <p class="compat-description" data-compat-type="conflict" data-partner-type="ALDG"></p>
+                    </div>
+                    <div class="compat-card bad-compat">
+                        <h4>💣 【弱みを増幅する関係】</h4>
+                        <a href="APCG.html" class="partner-profile">
+                            <img src="../img/Character_APCG.png" alt="学校行事の仕掛け人タイプ">
+                            <p><span class="type-code">APCG</span>学校行事の仕掛け人</p>
+                        </a>
+                        <p class="compat-description" data-compat-type="amplifyWeakness" data-partner-type="APCG"></p>
+                    </div>
+                </div>
+            </section>
+            
             <footer>
                 <a href="../index.html" class="button-link">トップページへ</a>
             </footer>
@@ -45,6 +81,7 @@
 
     <div id="footer-placeholder"></div>
 
+    <script src="../compat-data.js"></script>
     <script src="../include.js"></script>
 </body>
 </html>

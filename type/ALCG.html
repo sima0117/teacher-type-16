@@ -13,7 +13,7 @@
     <div id="header-placeholder"></div>
 
     <div class="container">
-        <main id="result-page">
+        <main id="result-page" data-self-type="ALCG">
             <header>
                 <h1><span class="type-code">ALCG</span> - 探求学習のファシリテータータイプ</h1>
                 <h2>「良い質問だね。君はどう思う？」答えを教えず対話で生徒の思考を冒険させる旅人</h2>
@@ -35,6 +35,46 @@
                 
                 <h3>４．ワンポイントアドバイス</h3>
                 <p>あなたの創り出す学びの場は、生徒の未来に繋がる素晴らしい財産です。その質をさらに高めるため、冒険の始まりに「今日の宝物は何か（学習目標）」と「宝の地図（思考のフレームワーク）」を提示してあげましょう。大まかな道筋があることで、生徒は安心して思考の冒険を始められます。また、探求活動の最後には、必ず「今日の冒険で分かったこと（知識のまとめ）」を全員で確認する時間を設けましょう。プロセスを重視するあなたのスタイルと、知識の定着が両立するはずです。</p>
+
+                <h3>５．他のタイプとの相性</h3>
+                <div class="compatibility-grid">
+
+                    <div class="compat-card good-compat">
+                        <h4>✨ 【支え合う関係】</h4>
+                        <a href="OPDI.html" class="partner-profile">
+                            <img src="../img/Character_OPDI.png" alt="コンクールの個人指導教官タイプ">
+                            <p><span class="type-code">OPDI</span>コンクールの個人指導教官</p>
+                        </a>
+                        <p class="compat-description" data-compat-type="support" data-partner-type="OPDI"></p>
+                    </div>
+
+                    <div class="compat-card good-compat">
+                        <h4>🤝 【強みを増幅する関係】</h4>
+                        <a href="ALDG.html" class="partner-profile">
+                            <img src="../img/Character_ALDG.png" alt="知識の森の司書タイプ">
+                            <p><span class="type-code">ALDG</span>知識の森の司書</p>
+                        </a>
+                        <p class="compat-description" data-compat-type="amplifyStrength" data-partner-type="ALDG"></p>
+                    </div>
+
+                    <div class="compat-card bad-compat">
+                        <h4>⚠️ 【対立する関係】</h4>
+                        <a href="OPCI.html" class="partner-profile">
+                            <img src="../img/Character_OPCI.png" alt="マンツーマンの熱血コーチタイプ">
+                            <p><span class="type-code">OPCI</span>マンツーマンの熱血コーチ</p>
+                        </a>
+                        <p class="compat-description" data-compat-type="conflict" data-partner-type="OPCI"></p>
+                    </div>
+
+                    <div class="compat-card bad-compat">
+                        <h4>💣 【弱みを増幅する関係】</h4>
+                        <a href="OLCG.html" class="partner-profile">
+                            <img src="../img/Character_OLCG.png" alt="対話で築くプロジェクトマネージャータイプ">
+                            <p><span class="type-code">OLCG</span>対話で築くPM</p>
+                        </a>
+                        <p class="compat-description" data-compat-type="amplifyWeakness" data-partner-type="OLCG"></p>
+                    </div>
+                </div>
             </section>
 
             <footer>
@@ -45,6 +85,7 @@
 
     <div id="footer-placeholder"></div>
 
+    <script src="../compat-data.js"></script>
     <script src="../include.js"></script>
 </body>
 </html>
