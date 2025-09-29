@@ -40,4 +40,22 @@ document.addEventListener("DOMContentLoaded", function() {
             }
         });
     }
+    
+    // --- ▼▼▼ シェアボタンのリンクを自動生成する機能 ▼▼▼ ---
+    const shareTwitter = document.getElementById('share-twitter');
+    const shareLine = document.getElementById('share-line');
+
+    // 結果ページである場合のみ実行
+    if (shareTwitter && shareLine) {
+        const pageUrl = window.location.href;
+        const pageTitle = document.title;
+        
+        const shareText = `私の教師タイプは『${pageTitle}』でした！ あなたも診断してみよう！ #教師のための16タイプ診断`;
+
+        // X用のリンクを生成
+        shareTwitter.href = `https://twitter.com/intent/tweet?url=${encodeURIComponent(pageUrl)}&text=${encodeURIComponent(shareText)}`;
+
+        // LINE用のリンクを生成
+        shareLine.href = `https://social-plugins.line.me/lineit/share?url=${encodeURIComponent(pageUrl)}&text=${encodeURIComponent(shareText)}`;
+    }
 });

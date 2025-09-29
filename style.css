@@ -499,3 +499,36 @@ main p {
     margin-bottom: 10px;
     font-size: 1em;
 }
+
+/* --- シェアボタンのスタイル --- */
+.share-buttons {
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: var(--base-color);
+    border-radius: 8px;
+}
+.share-buttons p {
+    font-weight: bold;
+    font-size: 1em;
+    margin: 0 0 15px 0;
+    text-align: center;
+}
+.share-button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 5px;
+    color: var(--white-color);
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: opacity 0.3s;
+}
+.share-button:hover {
+    opacity: 0.8;
+}
+.share-button.twitter {
+    background-color: #000000; /* Xのブランドカラー */
+}
+.share-button.line {
+    background-color: #06C755; /* LINEのブランドカラー */
+}
